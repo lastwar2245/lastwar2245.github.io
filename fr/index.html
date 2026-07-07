@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Guide communautaire Last War 2245 : planning VS, règles serveur, dons alliance et fiches quotidiennes.">
+  <title>Last War 2245 — Guide VS — FR</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script src="../assets/js/app.js" defer></script>
+</head>
+<body>
+
+<div class="app-shell menu-open" id="appShell">
+<aside aria-label="Menu de navigation lat&eacute;rale" class="sidebar">
+<div class="sidebar-top">
+<button class="hamburger" id="menuToggle" title="Afficher / masquer le menu" type="button">☰</button>
+<div class="sidebar-title">🪵 Menu VS &mdash; La B&ucirc;cherie</div>
+</div>
+<nav class="sidebar-nav" id="sidebarNav">
+<div class="sidebar-tools">
+<button id="expandAllNav" type="button">Tout d&eacute;plier</button>
+<button id="collapseAllNav" type="button">Tout replier</button>
+</div>
+<div aria-label="Language selector" class="lang-switch">
+<span class="lang-label">Langue</span>
+<a class="lang-pill active" href="../fr/">🇫🇷 FR</a>
+<a class="lang-pill" href="../en/">🇬🇧 EN</a>
+<a class="lang-pill" href="../">🏠 Accueil</a>
+</div><a class="sidebar-link level-1" href="#sommaire-fr">📑 Sommaire FR</a>
+<a class="sidebar-link level-1" href="#planning">📅 Planning hebdomadaire</a>
+<a class="sidebar-link level-1" href="#galerie-v1">🖼️ Galerie quotidienne V1</a>
+<details class="nav-group" open="">
+<summary><span class="twisty">&rtrif;</span><a class="sidebar-link level-1" href="#fiches-detaillees">🗓️ Fiches par jour</a></summary>
+<div class="nav-children">
+<a class="sidebar-link level-2" href="#dimanche">🌙 Dimanche &mdash; Pr&eacute;paration</a>
+<a class="sidebar-link level-2" href="#lundi">🛰️ Lundi &mdash; Radar / Drone</a>
+<a class="sidebar-link level-2" href="#mardi">🏗️ Mardi &mdash; Construction</a>
+<a class="sidebar-link level-2" href="#mercredi">🔬 Mercredi &mdash; Science</a>
+<a class="sidebar-link level-2" href="#jeudi">🦸 Jeudi &mdash; H&eacute;ros</a>
+<a class="sidebar-link level-2" href="#vendredi">🔥 Vendredi &mdash; Mobilisation</a>
+<a class="sidebar-link level-2" href="#samedi">⚔️ Samedi &mdash; Enemy Buster</a>
+</div>
+</details>
+<details class="nav-group" open="">
+<summary><span class="twisty">&rtrif;</span><a class="sidebar-link level-1" href="#principes">🧠 Guide strat&eacute;gique</a></summary>
+<div class="nav-children">
+<a class="sidebar-link level-2" href="#principes">Principes g&eacute;n&eacute;raux</a>
+<a class="sidebar-link level-2" href="#trucs-bucherons">🪵 Trucs et astuces de b&ucirc;cherons</a>
+<a class="sidebar-link level-2" href="#dons-stockage">🤝 Dons &amp; stockage</a>
+<a class="sidebar-link level-2" href="#teams">🧬 Optimisation des teams</a>
+<a class="sidebar-link level-2" href="#serveur2245">🚫 R&egrave;gle serveur 2245</a>
+</div>
+</details>
+<details class="nav-group" open="">
+<summary><span class="twisty">&rtrif;</span><a class="sidebar-link level-1" href="#bareme">📊 Bar&egrave;mes &amp; captures</a></summary>
+<div class="nav-children">
+<a class="sidebar-link level-2" href="#bareme">Bar&egrave;me des points VS</a>
+<a class="sidebar-link level-2" href="#captures-jeu">Captures d&rsquo;&eacute;cran du jeu</a>
+</div>
+</details>
+<a class="sidebar-link level-1 important-link" href="#serveur2245">🚫 Aucun pillage interne</a>
+</nav>
+</aside>
+<main class="content-wrap" id="contentWrap">
+<article class="content-card" data-help="☰ Menu lat&eacute;ral : ouvrir/replier la navigation &mdash; liens internes cliquables" data-help-mobile="☰ Menu : bouton en bas &agrave; gauche &mdash; navigation optimis&eacute;e mobile">
+<header class="hero"><h1>⚔️ Last War &mdash; Guide VS / Duel d&rsquo;Alliance V2.8</h1><p class="lead">La B&ucirc;cherie &mdash; mini-site HTML : navigation lat&eacute;rale, planning prioritaire, bar&egrave;me, stockage, dons d&rsquo;alliance, optimisation et galerie des fiches quotidiennes.</p><div class="page-actions">
+<a class="home-button" href="../">🏠 Accueil langues</a>
+<a class="home-button" href="../en/">🇬🇧 Version EN</a>
+<a class="home-button" href="https://github.com/lastwar2245/lastwar2245.github.io" rel="noopener" target="_blank">GitHub</a>
+</div></header><section class="card language-toc" id="sommaire-fr">
+<h2>📑 Sommaire FR</h2>
+<p class="lead">Navigation rapide vers les grandes parties du guide.</p>
+<div class="toc-grid"><a href="#planning">📅 Planning hebdomadaire</a><a href="#galerie-v1">🖼️ Galerie quotidienne</a><a href="#principes">🧠 Principes g&eacute;n&eacute;raux</a><a href="#trucs-bucherons">🪵 Trucs et astuces</a><a href="#dons-stockage">🤝 Dons &amp; stockage</a><a href="#fiches-detaillees">🗓️ Fiches d&eacute;taill&eacute;es</a><a href="#bareme">📊 Bar&egrave;mes VS</a><a href="#captures-jeu">📸 Captures du jeu</a><a href="#teams">🧬 Optimisation des teams</a><a href="#serveur2245">🚫 R&egrave;gle serveur 2245</a></div>
+</section>
+<section class="card" id="planning"><h2>📅 Planning hebdomadaire</h2><table><thead><tr><th>Jour</th><th>Th&egrave;me</th><th>Points victoire</th><th>Focus</th></tr></thead><tbody><tr><td>Jour 1</td><td>Entra&icirc;nement Radar</td><td>1</td><td>Radars, endurance, drone, r&eacute;coltes</td></tr><tr><td>Jour 2</td><td>Expansion de Base</td><td>2</td><td>Construction, b&acirc;timents, camions UR, t&acirc;ches secr&egrave;tes UR, survivants</td></tr><tr><td>Jour 3</td><td>&Egrave;re de la Science</td><td>2</td><td>Recherche, badges, radars, composants drone</td></tr><tr><td>Jour 4</td><td>Former des H&eacute;ros</td><td>2</td><td>EXP, recrutements, fragments, m&eacute;dailles</td></tr><tr><td>Jour 5</td><td>Mobilisation Totale</td><td>2</td><td>Formation, promotions, acc&eacute;l&eacute;rateurs, radars</td></tr><tr><td>Jour 6</td><td>Chasse &agrave; l&rsquo;Ennemi</td><td>4</td><td>Combat, soins, unit&eacute;s tu&eacute;es/perdues, actions UR</td></tr></tbody></table>
+<div class="planning-notes">
+<p>🤝 <strong>Dons alliance : TOUS LES JOURS.</strong> C&rsquo;est une routine.</p>
+<p>🧠 <strong>R&egrave;gle courte :</strong> stocker la veille, valider le bon jour, ne pas cliquer sur les points rouges trop t&ocirc;t, faire les dons d&rsquo;alliance <strong>TOUS LES JOURS</strong>, et aucun pillage sur <strong>2245</strong>.</p>
+</div>
+</section>
+<section class="card visual-section" id="galerie-v1">
+<h2>🖼️ Galerie &mdash; R&eacute;cap VS quotidien version 1</h2>
+<p class="lead">Une image par jour pour partager rapidement les consignes dans l&rsquo;alliance.</p>
+<p class="visual-section-note">Clique sur le titre d&rsquo;un jour pour afficher ou masquer son image. Sur mobile, cela &eacute;vite une page trop longue.</p>
+<div class="visual-tools">
+<button data-visual-open="#galerie-v1" type="button">Tout afficher</button>
+<button data-visual-close="#galerie-v1" type="button">Tout replier</button>
+</div>
+<div class="gallery">
+<details class="gallery-card visual-fold" id="img-dimanche">
+<summary>🌙 Dimanche &mdash; Pr&eacute;paration de la semaine</summary>
+<div class="visual-body">
+<a href="../assets/images/recap_vs/recap_dimanche_v1_FR.png" target="_blank"><img alt="R&eacute;cap 🌙 Dimanche version 1" src="../assets/images/recap_vs/recap_dimanche_v1_FR.png"/></a>
+<p>Pr&eacute;parer le lundi VS et reconstruire les troupes</p>
+</div>
+</details>
+<details class="gallery-card visual-fold" id="img-lundi">
+<summary>🛰️ Lundi &mdash; Radar / Drone / Endurance</summary>
+<div class="visual-body">
+<a href="../assets/images/recap_vs/recap_lundi_v1_FR.png" target="_blank"><img alt="R&eacute;cap 🛰️ Lundi version 1" src="../assets/images/recap_vs/recap_lundi_v1_FR.png"/></a>
+<p>Marquer avec les radars, les r&eacute;coltes, l&rsquo;endurance et le drone</p>
+</div>
+</details>
+<details class="gallery-card visual-fold" id="img-mardi">
+<summary>🏗️ Mardi &mdash; Expansion de base / Construction</summary>
+<div class="visual-body">
+<a href="../assets/images/recap_vs/recap_mardi_v1_FR.png" target="_blank"><img alt="R&eacute;cap 🏗️ Mardi version 1" src="../assets/images/recap_vs/recap_mardi_v1_FR.png"/></a>
+<p>Marquer avec les b&acirc;timents, les survivants, les camions UR et les missions secr&egrave;tes</p>
+</div>
+</details>
+<details class="gallery-card visual-fold" id="img-mercredi">
+<summary>🔬 Mercredi &mdash; Recherche / Science</summary>
+<div class="visual-body">
+<a href="../assets/images/recap_vs/recap_mercredi_v1_FR.png" target="_blank"><img alt="R&eacute;cap 🔬 Mercredi version 1" src="../assets/images/recap_vs/recap_mercredi_v1_FR.png"/></a>
+<p>Marquer avec les recherches, les badges de valeur et les composants drone</p>
+</div>
+</details>
+<details class="gallery-card visual-fold" id="img-jeudi">
+<summary>🦸 Jeudi &mdash; Entra&icirc;nement des h&eacute;ros</summary>
+<div class="visual-body">
+<a href="../assets/images/recap_vs/recap_jeudi_v1_FR.png" target="_blank"><img alt="R&eacute;cap 🦸 Jeudi version 1" src="../assets/images/recap_vs/recap_jeudi_v1_FR.png"/></a>
+<p>Am&eacute;liorer les h&eacute;ros intelligemment et pr&eacute;parer le gros vendredi</p>
+</div>
+</details>
+<details class="gallery-card visual-fold" id="img-vendredi">
+<summary>🔥 Vendredi &mdash; Mobilisation totale</summary>
+<div class="visual-body">
+<a href="../assets/images/recap_vs/recap_vendredi_v1_FR.png" target="_blank"><img alt="R&eacute;cap 🔥 Vendredi version 1" src="../assets/images/recap_vs/recap_vendredi_v1_FR.png"/></a>
+<p>Faire le gros score avec acc&eacute;l&eacute;rateurs, troupes, promotions et pr&eacute;paratifs du samedi</p>
+</div>
+</details>
+<details class="gallery-card visual-fold" id="img-samedi">
+<summary>⚔️ Samedi &mdash; Enemy Buster / Chasse &agrave; l&rsquo;ennemi</summary>
+<div class="visual-body">
+<a href="../assets/images/recap_vs/recap_samedi_v1_FR.png" target="_blank"><img alt="R&eacute;cap ⚔️ Samedi version 1" src="../assets/images/recap_vs/recap_samedi_v1_FR.png"/></a>
+<p>Faire des points de combat sans donner de points gratuits</p>
+</div>
+</details>
+</div>
+</section>
+<section class="card" id="principes"><h2>🧠 Principes g&eacute;n&eacute;raux</h2><ul><li>Pr&eacute;parer les actions &agrave; l&rsquo;avance, puis les valider le bon jour.</li><li>Garder radars et r&eacute;coltes pour les jours o&ugrave; ils rapportent.</li><li>Garder constructions, recherches, h&eacute;ros, formations et soins pour le th&egrave;me correspondant.</li><li>Conserver les r&eacute;compenses de b&acirc;timents et les points rouges lorsque c&rsquo;est possible.</li><li>Faire les dons d&rsquo;alliance <strong>TOUS LES JOURS</strong> pour acc&eacute;l&eacute;rer les bonus collectifs.</li><li>Soigner par petits blocs, environ 50 troupes, pendant les batailles.</li><li>Construire une T1 forte avant de disperser les ressources sur T2/T3.</li></ul></section>
+<section class="card" id="trucs-bucherons">
+<h2>🪵 Trucs et astuces de b&ucirc;cherons</h2>
+<p class="lead">Petites r&egrave;gles pratiques pour progresser plus vite, mieux marquer en VS et &eacute;viter les erreurs co&ucirc;teuses.</p>
+<div class="tips-summary">
+<span>⏳ Stocker</span>
+<span>🎯 Valider le bon jour</span>
+<span>🤝 Jouer alliance</span>
+<span>🛡️ Se prot&eacute;ger</span>
+<span>📈 Prioriser la T1</span>
+</div>
+<div class="tips-grid">
+<article class="tip-card tip-important">
+<h3>⏳ 1. Stocker avant de cliquer</h3>
+<ul>
+<li>Ne pas cliquer trop vite sur les <strong>points rouges</strong>.</li>
+<li>Terminer certaines actions la veille, puis r&eacute;cup&eacute;rer le lendemain si le th&egrave;me VS correspond.</li>
+<li>Garder les r&eacute;compenses qui peuvent attendre : b&acirc;timents, recherches, coffres, fragments, tickets.</li>
+</ul>
+</article>
+<article class="tip-card tip-success">
+<h3>🤝 2. Faire les dons d&rsquo;alliance &mdash; TOUS LES JOURS</h3>
+<ul>
+<li>Faire les dons <strong>TOUS LES JOURS</strong> pour d&eacute;bloquer les bonus collectifs.</li>
+<li>Prioriser les technologies utiles au VS, &agrave; la puissance et aux combats.</li>
+<li>Une alliance qui donne progresse plus vite et marque mieux.</li>
+</ul>
+</article>
+<article class="tip-card">
+<h3>🔍 3. Radars : pr&eacute;parer la veille</h3>
+<ul>
+<li>Les radars sont importants les jours o&ugrave; <strong>Compl&eacute;ter 1 t&acirc;che Radar</strong> rapporte des points.</li>
+<li>Pr&eacute;parer surtout <strong>dimanche soir</strong> pour lundi, <strong>mardi soir</strong> pour mercredi et <strong>jeudi soir</strong> pour vendredi.</li>
+<li>Attention &agrave; la limite maximale de t&acirc;ches radar.</li>
+</ul>
+</article>
+<article class="tip-card">
+<h3>🌾 4. R&eacute;coltes du lundi</h3>
+<ul>
+<li>Lancer les r&eacute;coltes dimanche soir.</li>
+<li>Les faire terminer <strong>apr&egrave;s 04h00</strong>.</li>
+<li>Id&eacute;al : r&eacute;cup&eacute;rer apr&egrave;s <strong>04h05</strong> pour &eacute;viter les erreurs de comptabilisation.</li>
+</ul>
+</article>
+<article class="tip-card">
+<h3>🎁 5. Cadeaux b&acirc;timents et r&eacute;compenses</h3>
+<ul>
+<li>Ne pas ouvrir automatiquement les cadeaux li&eacute;s aux b&acirc;timents.</li>
+<li>Les garder pour mardi ou vendredi si cela rapporte des points VS.</li>
+<li>M&ecirc;me logique pour les recherches, composants drone, h&eacute;ros et formations.</li>
+</ul>
+</article>
+<article class="tip-card">
+<h3>🪖 6. Soldats : production &eacute;chelonn&eacute;e</h3>
+<ul>
+<li>Relancer les casernes d&egrave;s dimanche pour reconstruire apr&egrave;s VS / Capitole.</li>
+<li>Produire toute la semaine sans br&ucirc;ler les acc&eacute;l&eacute;rateurs.</li>
+<li>Faire le gros push vendredi : formation + promotions <strong>N5 &rarr; N6 &rarr; N7</strong>.</li>
+</ul>
+</article>
+<article class="tip-card">
+<h3>🦸 7. H&eacute;ros : paliers de 10</h3>
+<ul>
+<li>Ne pas monter les h&eacute;ros au hasard.</li>
+<li>Viser les paliers utiles : <strong>10 / 20 / 30 / 40</strong>.</li>
+<li>Priorit&eacute; &agrave; la team principale et aux h&eacute;ros utilis&eacute;s tous les jours.</li>
+</ul>
+</article>
+<article class="tip-card">
+<h3>🧬 8. Teams : T1 d&rsquo;abord</h3>
+<ul>
+<li>Une T1 forte vaut mieux que trois teams moyennes.</li>
+<li>D&eacute;fenseurs devant, attaquants et supports derri&egrave;re.</li>
+<li>&Eacute;quipement : <strong>armure/radar</strong> sur frontline, <strong>canon/puce</strong> sur backline.</li>
+</ul>
+</article>
+<article class="tip-card tip-danger">
+<h3>🛡️ 9. Bouclier avant Enemy Buster</h3>
+<ul>
+<li>Vendredi soir : bouclier avant de dormir.</li>
+<li>Couvrir au minimum jusqu&rsquo;apr&egrave;s <strong>04h00 / 04h05</strong>.</li>
+<li>Pour les absents : bouclier jusqu&rsquo;au samedi soir.</li>
+</ul>
+</article>
+<article class="tip-card">
+<h3>🏥 10. Soins par petits blocs</h3>
+<ul>
+<li>Soigner par lots d&rsquo;environ <strong>50 troupes</strong>.</li>
+<li>Demander l&rsquo;aide alliance, relancer, recommencer.</li>
+<li>&Eacute;vite de bloquer l&rsquo;h&ocirc;pital pendant les combats.</li>
+</ul>
+</article>
+<article class="tip-card">
+<h3>🧱 11. En cas d&rsquo;oubli de bouclier</h3>
+<ul>
+<li>Sortir les teams du mur de d&eacute;fense.</li>
+<li>Objectif : limiter les pertes de soldats.</li>
+<li>L&rsquo;ennemi marque moins, la base devient moins rentable &agrave; attaquer.</li>
+</ul>
+</article>
+<article class="tip-card">
+<h3>🕵️ 12. Attaque furtive mine en mine</h3>
+<ul>
+<li>Approcher discr&egrave;tement en avan&ccedil;ant de mine en mine ou de point proche.</li>
+<li>Frapper au dernier moment sur une cible rentable.</li>
+<li>Revenir sous bouclier ou en ruche imm&eacute;diatement apr&egrave;s.</li>
+</ul>
+</article>
+<article class="tip-card">
+<h3>🕵️ 13. Espionnage &amp; bonus de fr&eacute;n&eacute;sie</h3>
+<ul>
+<li>Avant une attaque, espionner une <strong>mine</strong> ou une autre <strong>base</strong> pour d&eacute;clencher / profiter du bonus de <strong>fr&eacute;n&eacute;sie</strong>.</li>
+<li>Cette logique peut aussi servir pendant les exercices de Mar&eacute;chal ou certains &eacute;v&eacute;nements similaires.</li>
+<li>Ensuite : frapper vite, puis se remettre sous bouclier d&egrave;s que possible.</li>
+</ul>
+</article>
+<article class="tip-card tip-danger">
+<h3>🚫 14. R&egrave;gle serveur 2245</h3>
+<ul>
+<li>Sur 2245 : ne rien piller.</li>
+<li>Pas de camions, t&acirc;ches, r&eacute;coltes, bases ou ressources.</li>
+<li>Les cibles sont les adversaires VS ou les serveurs ennemis.</li>
+</ul>
+</article>
+<article class="tip-card">
+<h3>🏠 15. Retour en ruche</h3>
+<ul>
+<li>Apr&egrave;s une attaque, ne pas rester expos&eacute;.</li>
+<li>Profiter des TP gratuits du VS pour revenir proprement.</li>
+<li>Se remettre sous bouclier apr&egrave;s l&rsquo;action d&egrave;s que possible, id&eacute;alement &agrave; la <strong>fin de la fr&eacute;n&eacute;sie d&rsquo;attaque</strong>.</li>
+</ul>
+</article>
+<article class="tip-card">
+<h3>📢 16. Communication alliance</h3>
+<ul>
+<li>Pr&eacute;venir avant les attaques.</li>
+<li>Partager sa position sur le serveur adverse.</li>
+<li>Coordonner attaquants, garnisons, rep&eacute;rage et absents.</li>
+</ul>
+</article>
+<article class="tip-card tip-success">
+<h3>🧠 17. R&egrave;gle b&ucirc;cheronne finale</h3>
+<ul>
+<li>Pr&eacute;parer la veille.</li>
+<li>Valider au bon jour.</li>
+<li>Ne pas gaspiller.</li>
+<li>Ne pas donner de points gratuits.</li>
+</ul>
+</article>
+</div>
+</section>
+<section class="card" id="dons-stockage"><h2>🤝🎁 Dons d&rsquo;alliance &amp; stockage des r&eacute;compenses</h2><div class="cols"><div class="box ok"><h3>🤝 Dons d&rsquo;alliance &mdash; TOUS LES JOURS</h3><ul><li>Faire les dons <strong>TOUS LES JOURS</strong>.</li><li>Prioriser les technologies utiles au VS et &agrave; la puissance d&rsquo;alliance.</li><li>Les dons donnent des avantages collectifs et facilitent la progression.</li></ul></div><div class="box prep"><h3>🎁 R&eacute;compenses / cadeaux</h3><ul><li>Ne pas ouvrir syst&eacute;matiquement les cadeaux de b&acirc;timents.</li><li>Stocker si possible pour le jour construction ou mobilisation.</li><li>Ouvrir au moment o&ugrave; le th&egrave;me VS donne des points.</li></ul></div><div class="box alert"><h3>🔴 Points rouges</h3><ul><li>R&eacute;aliser certaines t&acirc;ches la veille si possible.</li><li>Ne pas cliquer sur le point rouge avant le bon jour.</li><li>Exemple : radars stock&eacute;s dimanche soir, mardi soir et jeudi soir.</li></ul></div></div></section>
+<section id="fiches-detaillees"><h2>🗓️ Fiches d&eacute;taill&eacute;es par jour</h2><section class="day" id="dimanche"><div class="day-head"><span>🌙 Dimanche</span><strong>Pr&eacute;paration de la semaine</strong></div><img alt="Fiche r&eacute;cap 🌙 Dimanche" class="day-img" src="../assets/images/recap_vs/recap_dimanche_v1_FR.png"/><p class="lead"><b>Objectif :</b> Pr&eacute;parer le lundi VS et reconstruire les troupes</p><div class="cols"><div class="box ok"><h3>✅ &Agrave; faire</h3><ul><li>Soigner les troupes apr&egrave;s VS / Capitole</li><li>Relancer les casernes</li><li>Pr&eacute;parer des soldats N5 / N6 pour vendredi</li><li>Garder une petite r&eacute;serve T1 / T2</li><li>Faire les radars sans r&eacute;cup&eacute;rer</li><li>Surveiller la limite maximale de radars</li><li>Lancer les r&eacute;coltes dimanche soir</li><li>Fin des r&eacute;coltes apr&egrave;s 04h00 ; id&eacute;alement r&eacute;cup&eacute;rer apr&egrave;s 04h05</li><li>Garder de l&rsquo;endurance</li><li>Pr&eacute;parer les ressources drone</li><li>Lancer des b&acirc;timents longs pour mardi</li><li>Faire les dons d&rsquo;alliance <strong>TOUS LES JOURS</strong></li><li>Stocker les cadeaux/r&eacute;compenses b&acirc;timents si possible</li></ul></div><div class="box prep"><h3>📦 &Agrave; pr&eacute;parer</h3><ul><li>Radars pr&ecirc;ts &agrave; r&eacute;cup&eacute;rer</li><li>R&eacute;coltes apr&egrave;s 04h00 / 04h05</li><li>Endurance disponible</li><li>Ressources drone pr&ecirc;tes</li><li>Casernes en production</li></ul></div><div class="box alert"><h3>⚠️ Attention</h3><ul><li>Ne pas r&eacute;cup&eacute;rer avant 04h00</li><li>Ne pas cliquer sur les points rouges avant le bon jour</li><li>Ne pas utiliser h&eacute;ros / tickets / acc&eacute;l&eacute;rateurs</li><li>Aucun pillage sur 2245</li></ul></div></div>
+<div class="score-inline">
+<h3>📊 Bar&egrave;me &agrave; pr&eacute;parer pour lundi &mdash; Jour 1</h3>
+<p class="score-note">Dimanche sert surtout &agrave; pr&eacute;parer les actions du lundi : radars non r&eacute;cup&eacute;r&eacute;s, r&eacute;coltes apr&egrave;s 04h00 / 04h05, endurance et ressources drone.</p>
+<table><thead><tr><th>T&acirc;che qui rapporte des points</th><th>Points</th></tr></thead><tbody><tr><td>Utiliser 1 endurance</td><td class="pts">300</td></tr><tr><td>Compl&eacute;ter 1 t&acirc;che Radar</td><td class="pts">23 000</td></tr><tr><td>Utiliser 660 EXP de h&eacute;ros</td><td class="pts">2</td></tr><tr><td>Utiliser 1 point de donn&eacute;es de combat du drone</td><td class="pts">6</td></tr><tr><td>Utiliser 1 pi&egrave;ce de drone</td><td class="pts">5 000</td></tr><tr><td>Collectes hors Radar</td><td class="pts">40</td></tr><tr><td>Coffre de puce : mat&eacute;riel premium</td><td class="pts">2 250</td></tr></tbody></table>
+</div>
+</section>
+<section class="day" id="lundi"><div class="day-head"><span>🛰️ Lundi</span><strong>Radar / Drone / Endurance</strong></div><img alt="Fiche r&eacute;cap 🛰️ Lundi" class="day-img" src="../assets/images/recap_vs/recap_lundi_v1_FR.png"/><p class="lead"><b>Objectif :</b> Marquer avec les radars, les r&eacute;coltes, l&rsquo;endurance et le drone</p><div class="cols"><div class="box ok"><h3>✅ &Agrave; faire</h3><ul><li>R&eacute;cup&eacute;rer les r&eacute;coltes apr&egrave;s 04h00 / 04h05</li><li>R&eacute;cup&eacute;rer les radars pr&eacute;par&eacute;s</li><li>Faire les nouveaux radars</li><li>Utiliser l&rsquo;endurance : zombies, rallies, radar</li><li>Participer aux rallies zombies</li><li>Am&eacute;liorer le drone</li><li>Ouvrir les coffres Drone Skill Chip si comptabilis&eacute;s</li><li>Maintenir les casernes actives</li><li>Produire progressivement des soldats</li><li>Pr&eacute;parer N5 &rarr; N6 &rarr; N7 pour vendredi</li><li>Lancer des b&acirc;timents pour mardi</li><li>Faire les dons d&rsquo;alliance <strong>TOUS LES JOURS</strong></li></ul></div><div class="box prep"><h3>📦 &Agrave; pr&eacute;parer</h3><ul><li>B&acirc;timents pr&ecirc;ts &agrave; r&eacute;cup&eacute;rer</li><li>Acc&eacute;l&eacute;rateurs de construction</li><li>Tickets survivants</li><li>Camions UR</li><li>Missions secr&egrave;tes l&eacute;gendaires</li></ul></div><div class="box alert"><h3>⚠️ Attention</h3><ul><li>Ne pas utiliser les ressources h&eacute;ros</li><li>Pas d&rsquo;acc&eacute;l&eacute;rateurs recherche / formation</li><li>Ne pas promouvoir massivement avant vendredi</li><li>Garder les Drone Component pour mercredi</li><li>Aucun pillage sur 2245</li></ul></div></div>
+<div class="score-inline">
+<h3>📊 Bar&egrave;me VS &mdash; Jour 1 : Entra&icirc;nement Radar</h3>
+<table><thead><tr><th>T&acirc;che qui rapporte des points</th><th>Points</th></tr></thead><tbody><tr><td>Utiliser 1 endurance</td><td class="pts">300</td></tr><tr><td>Compl&eacute;ter 1 t&acirc;che Radar</td><td class="pts">23 000</td></tr><tr><td>Utiliser 660 EXP de h&eacute;ros</td><td class="pts">2</td></tr><tr><td>Utiliser 1 point de donn&eacute;es de combat du drone</td><td class="pts">6</td></tr><tr><td>Utiliser 1 pi&egrave;ce de drone</td><td class="pts">5 000</td></tr><tr><td>Collecter 100 nourriture / 100 fer / 60 pi&egrave;ces hors Radar</td><td class="pts">40</td></tr><tr><td>Ouvrir 1 coffre de puce et gagner 1 mat&eacute;riel premium</td><td class="pts">2 250</td></tr></tbody></table>
+</div>
+</section>
+<section class="day" id="mardi"><div class="day-head"><span>🏗️ Mardi</span><strong>Expansion de base / Construction</strong></div><img alt="Fiche r&eacute;cap 🏗️ Mardi" class="day-img" src="../assets/images/recap_vs/recap_mardi_v1_FR.png"/><p class="lead"><b>Objectif :</b> Marquer avec les b&acirc;timents, les survivants, les camions UR et les missions secr&egrave;tes</p><div class="cols"><div class="box ok"><h3>✅ &Agrave; faire</h3><ul><li>R&eacute;cup&eacute;rer les b&acirc;timents pr&eacute;par&eacute;s</li><li>Utiliser les acc&eacute;l&eacute;rateurs de construction</li><li>Lancer ou terminer les gros b&acirc;timents</li><li>Envoyer les camions l&eacute;gendaires UR</li><li>Faire les missions secr&egrave;tes l&eacute;gendaires</li><li>Utiliser les tickets survivants</li><li>Monter la puissance de base</li><li>Garder les casernes actives</li><li>Ouvrir les cadeaux b&acirc;timents stock&eacute;s si cela compte</li><li>Faire les dons d&rsquo;alliance <strong>TOUS LES JOURS</strong></li></ul></div><div class="box prep"><h3>📦 &Agrave; pr&eacute;parer</h3><ul><li>Acc&eacute;l&eacute;rateurs de recherche</li><li>Badges de valeur</li><li>Coffres Drone Component</li><li>Recherches longues ou importantes</li><li>Radars &agrave; stocker mardi soir pour mercredi</li></ul></div><div class="box alert"><h3>⚠️ Attention</h3><ul><li>Pas d&rsquo;acc&eacute;l&eacute;rateurs de recherche aujourd&rsquo;hui</li><li>Ne pas d&eacute;penser les badges avant mercredi</li><li>Ne pas utiliser les ressources h&eacute;ros</li><li>Ne pas gaspiller les acc&eacute;l&eacute;rateurs g&eacute;n&eacute;raux</li><li>Aucun pillage sur 2245</li></ul></div></div>
+<div class="score-inline">
+<h3>📊 Bar&egrave;me VS &mdash; Jour 2 : Expansion de Base</h3>
+<table><thead><tr><th>T&acirc;che qui rapporte des points</th><th>Points</th></tr></thead><tbody><tr><td>1 min acc&eacute;l&eacute;ration construction</td><td class="pts">115</td></tr><tr><td>Puissance b&acirc;timents +1 pt</td><td class="pts">21,5</td></tr><tr><td>Envoyer 1 camion commercial UR</td><td class="pts">200 000</td></tr><tr><td>Effectuer 1 t&acirc;che secr&egrave;te UR</td><td class="pts">150 000</td></tr><tr><td>Recruter 1 survivant</td><td class="pts">3 000</td></tr></tbody></table>
+</div>
+</section>
+<section class="day" id="mercredi"><div class="day-head"><span>🔬 Mercredi</span><strong>Recherche / Science</strong></div><img alt="Fiche r&eacute;cap 🔬 Mercredi" class="day-img" src="../assets/images/recap_vs/recap_mercredi_v1_FR.png"/><p class="lead"><b>Objectif :</b> Marquer avec les recherches, les badges de valeur et les composants drone</p><div class="cols"><div class="box ok"><h3>✅ &Agrave; faire</h3><ul><li>Lancer ou terminer les recherches</li><li>Utiliser les acc&eacute;l&eacute;rateurs de recherche</li><li>D&eacute;penser les badges de valeur</li><li>Priorit&eacute; : Alliance VS / Duel d&rsquo;Alliance</li><li>Ouvrir les coffres Drone Component</li><li>Faire les radars si pr&eacute;vus</li><li>Synchroniser avec la Course aux armes</li><li>Continuer la production de soldats</li><li>Ouvrir les r&eacute;compenses/recherches stock&eacute;es si cela compte</li><li>Faire les dons d&rsquo;alliance <strong>TOUS LES JOURS</strong></li></ul></div><div class="box prep"><h3>📦 &Agrave; pr&eacute;parer</h3><ul><li>EXP h&eacute;ros</li><li>Fragments h&eacute;ros</li><li>M&eacute;dailles de comp&eacute;tence</li><li>Tickets de recrutement h&eacute;ros</li><li>H&eacute;ros &agrave; monter par paliers de 10</li></ul></div><div class="box alert"><h3>⚠️ Attention</h3><ul><li>Ne pas utiliser les ressources h&eacute;ros avant jeudi</li><li>Pas d&rsquo;acc&eacute;l&eacute;rateurs de formation</li><li>Ne pas consommer boucliers / TP inutilement</li><li>Aucun pillage sur 2245</li></ul></div></div>
+<div class="score-inline">
+<h3>📊 Bar&egrave;me VS &mdash; Jour 3 : &Egrave;re de la Science</h3>
+<table><thead><tr><th>T&acirc;che qui rapporte des points</th><th>Points</th></tr></thead><tbody><tr><td>1 min acc&eacute;l&eacute;ration recherche</td><td class="pts">115</td></tr><tr><td>Puissance technologique +1 pt</td><td class="pts">21</td></tr><tr><td>Utiliser 1 badge de valeur</td><td class="pts">600</td></tr><tr><td>Compl&eacute;ter 1 t&acirc;che Radar</td><td class="pts">23 000</td></tr><tr><td>Coffre composant drone niv.1 &rarr; niv.7</td><td class="pts">2 200 &rarr; 1 620 000</td></tr></tbody></table>
+</div>
+</section>
+<section class="day" id="jeudi"><div class="day-head"><span>🦸 Jeudi</span><strong>Entra&icirc;nement des h&eacute;ros</strong></div><img alt="Fiche r&eacute;cap 🦸 Jeudi" class="day-img" src="../assets/images/recap_vs/recap_jeudi_v1_FR.png"/><p class="lead"><b>Objectif :</b> Am&eacute;liorer les h&eacute;ros intelligemment et pr&eacute;parer le gros vendredi</p><div class="cols"><div class="box ok"><h3>✅ &Agrave; faire</h3><ul><li>Utiliser l&rsquo;EXP h&eacute;ros</li><li>Utiliser les fragments h&eacute;ros</li><li>Monter les comp&eacute;tences</li><li>Utiliser les tickets h&eacute;ros</li><li>Monter les classes de h&eacute;ros</li><li>Monter les attributs par paliers de 10</li><li>Priorit&eacute; &agrave; la team principale</li><li>Utiliser les fragments d&rsquo;armes exclusives si comptabilis&eacute;s</li><li>Pr&eacute;parer des b&acirc;timents pour vendredi</li><li>Pr&eacute;parer les soldats &agrave; promouvoir</li><li>Faire les dons d&rsquo;alliance <strong>TOUS LES JOURS</strong></li></ul></div><div class="box prep"><h3>📦 &Agrave; pr&eacute;parer</h3><ul><li>Acc&eacute;l&eacute;rateurs de formation</li><li>Acc&eacute;l&eacute;rateurs g&eacute;n&eacute;raux</li><li>B&acirc;timents pr&ecirc;ts</li><li>Recherches pr&ecirc;tes</li><li>Ressources pour formation / promotion</li><li>Soldats N5 pr&ecirc;ts &agrave; monter</li><li>Boucliers et TP pour samedi</li><li>Radars &agrave; stocker jeudi soir pour vendredi</li></ul></div><div class="box alert"><h3>⚠️ Attention</h3><ul><li>Ne pas utiliser les acc&eacute;l&eacute;rateurs de formation avant vendredi</li><li>Ne pas monter les h&eacute;ros au hasard</li><li>Ne pas vider les ressources avant vendredi</li><li>Aucun pillage sur 2245</li></ul></div></div>
+<div class="score-inline">
+<h3>📊 Bar&egrave;me VS &mdash; Jour 4 : Former des H&eacute;ros</h3>
+<table><thead><tr><th>T&acirc;che qui rapporte des points</th><th>Points</th></tr></thead><tbody><tr><td>Effectuer 1 recrutement de h&eacute;ros</td><td class="pts">3 450</td></tr><tr><td>Utiliser 660 EXP de h&eacute;ros</td><td class="pts">2</td></tr><tr><td>Utiliser 1 fragment h&eacute;ros SR</td><td class="pts">2 000</td></tr><tr><td>Utiliser 1 fragment h&eacute;ros SSR</td><td class="pts">7 000</td></tr><tr><td>Utiliser 1 fragment h&eacute;ros UR</td><td class="pts">20 000</td></tr><tr><td>Consommer 1 m&eacute;daille de comp&eacute;tence</td><td class="pts">20</td></tr></tbody></table>
+</div>
+</section>
+<section class="day" id="vendredi"><div class="day-head"><span>🔥 Vendredi</span><strong>Mobilisation totale</strong></div><img alt="Fiche r&eacute;cap 🔥 Vendredi" class="day-img" src="../assets/images/recap_vs/recap_vendredi_v1_FR.png"/><p class="lead"><b>Objectif :</b> Faire le gros score avec acc&eacute;l&eacute;rateurs, troupes, promotions et pr&eacute;paratifs du samedi</p><div class="cols"><div class="box ok"><h3>✅ &Agrave; faire</h3><ul><li>Utiliser les acc&eacute;l&eacute;rateurs de formation</li><li>Utiliser les acc&eacute;l&eacute;rateurs g&eacute;n&eacute;raux</li><li>Former des troupes</li><li>Promouvoir N5 &rarr; N6 &rarr; N7</li><li>R&eacute;cup&eacute;rer les b&acirc;timents pr&eacute;par&eacute;s</li><li>Terminer les recherches pr&ecirc;tes</li><li>Faire les radars si utiles</li><li>Utiliser les acc&eacute;l&eacute;rateurs restants si rentable</li><li>V&eacute;rifier les boucliers</li><li>V&eacute;rifier les t&eacute;l&eacute;portations</li><li>Pr&eacute;parer les soins et ressources</li><li>Organiser les r&ocirc;les du samedi</li><li>Faire les dons d&rsquo;alliance <strong>TOUS LES JOURS</strong></li></ul></div><div class="box prep"><h3>📦 &Agrave; pr&eacute;parer</h3><ul><li>Boucliers</li><li>T&eacute;l&eacute;portations</li><li>Acc&eacute;l&eacute;rateurs de soins</li><li>Ressources pour soigner</li><li>R&eacute;partition : attaquants / garnisons / absents</li></ul></div><div class="box alert"><h3>⚠️ Attention</h3><ul><li>Ne pas partir dormir sans bouclier</li><li>Ne pas vider toutes les ressources avant samedi</li><li>Garder de quoi soigner</li><li>Ne pas lancer d&rsquo;attaque isol&eacute;e</li><li>Aucun pillage sur 2245</li></ul></div></div>
+<div class="score-inline">
+<h3>📊 Bar&egrave;me VS &mdash; Jour 5 : Mobilisation Totale</h3>
+<table><thead><tr><th>T&acirc;che qui rapporte des points</th><th>Points</th></tr></thead><tbody><tr><td>Compl&eacute;ter 1 t&acirc;che Radar</td><td class="pts">23 000</td></tr><tr><td>1 min acc&eacute;l&eacute;ration construction / recherche / formation</td><td class="pts">115</td></tr><tr><td>Puissance b&acirc;timents +1 pt</td><td class="pts">21,5</td></tr><tr><td>Puissance technologique +1 pt</td><td class="pts">21</td></tr><tr><td>Former 1 unit&eacute; niv.1 &rarr; niv.10</td><td class="pts">46 &rarr; 253</td></tr></tbody></table>
+</div>
+</section>
+<section class="day" id="samedi"><div class="day-head"><span>⚔️ Samedi</span><strong>Enemy Buster / Chasse &agrave; l&rsquo;ennemi</strong></div><img alt="Fiche r&eacute;cap ⚔️ Samedi" class="day-img" src="../assets/images/recap_vs/recap_samedi_v1_FR.png"/><p class="lead"><b>Objectif :</b> Faire des points de combat sans donner de points gratuits</p>
+<div class="stealth">
+<h3>🕵️ Astuce attaque furtive &mdash; mine en mine</h3>
+<p>Le samedi, il est possible de jouer plus discret en d&eacute;pla&ccedil;ant une team de <strong>mine en mine</strong> ou de point proche, puis de frapper l&rsquo;ennemi au dernier moment. L&rsquo;objectif est de r&eacute;duire le temps d&rsquo;exposition, surprendre la cible et limiter les repr&eacute;sailles.</p>
+<ul>
+<li>Avancer progressivement vers la zone ennemie sans rester immobile trop longtemps.</li>
+<li>Garder un bouclier ou une t&eacute;l&eacute;portation de secours.</li>
+<li>Frapper uniquement une cible rentable et coordonn&eacute;e.</li>
+<li>Espionner une <strong>mine</strong> ou une autre <strong>base</strong> avant de lancer l&rsquo;attaque pour d&eacute;clencher / profiter du bonus de <strong>fr&eacute;n&eacute;sie</strong>. Astuce valable aussi pour les exercices de Mar&eacute;chal et certains &eacute;v&eacute;nements.</li>
+<li>Se remettre sous bouclier apr&egrave;s l&rsquo;action d&egrave;s que possible, id&eacute;alement &agrave; la <strong>fin de la fr&eacute;n&eacute;sie d&rsquo;attaque</strong>, ou revenir en ruche.</li>
+</ul>
+</div>
+<div class="cols"><div class="box ok"><h3>✅ &Agrave; faire</h3><ul><li>Pr&eacute;venir l&rsquo;alliance avant l&rsquo;attaque</li><li>Partager sa position</li><li>Attaquer en groupe</li><li>Priorit&eacute; aux adversaires VS en rouge</li><li>Cibles autour du Capitole adverse</li><li>Piller les camions du serveur adverse</li><li>Piller les t&acirc;ches du serveur adverse</li><li>En Guerre du Capitole : viser les serveurs ennemis</li><li>Utiliser les TP de mani&egrave;re coordonn&eacute;e</li><li>Soigner par lots de 50</li><li>Se remettre sous bouclier apr&egrave;s l&rsquo;action d&egrave;s que possible, id&eacute;alement &agrave; la fin de la fr&eacute;n&eacute;sie d&rsquo;attaque</li><li>Garnison sous bouclier possible</li><li>Sortir les teams du mur si oubli de bouclier</li></ul></div><div class="box prep"><h3>📦 &Agrave; pr&eacute;parer</h3><ul><li>Bouclier si absent</li><li>Soins par petits blocs</li><li>Retour en ruche avec TP gratuits</li><li>Surveillance et renforts</li></ul></div><div class="box alert"><h3>⚠️ Attention</h3><ul><li>Ne pas attaquer seul sauf grosse team</li><li>Une base vide rapporte peu</li><li>Ne pas rester sans bouclier apr&egrave;s attaque</li><li>Ne pas gaspiller les t&eacute;l&eacute;portations</li><li>Ne jamais attaquer le serveur 2245</li><li>Ne pas bloquer l&rsquo;h&ocirc;pital avec de gros soins</li></ul></div></div>
+<div class="score-inline">
+<h3>📊 Bar&egrave;me VS &mdash; Jour 6 : Chasse &agrave; l&rsquo;Ennemi</h3>
+<p class="score-note">Les points sont meilleurs sur les unit&eacute;s de l&rsquo;alliance rivale : coordonner les cibles avec l&rsquo;alliance.</p>
+<table><thead><tr><th>T&acirc;che qui rapporte des points</th><th>Points</th></tr></thead><tbody><tr><td>Envoyer 1 camion commercial UR</td><td class="pts">200 000</td></tr><tr><td>Effectuer 1 t&acirc;che secr&egrave;te UR</td><td class="pts">150 000</td></tr><tr><td>1 min acc&eacute;l&eacute;ration construction / recherche / formation / soin</td><td class="pts">115</td></tr><tr><td>Unit&eacute; perdue niv.1 &rarr; niv.10</td><td class="pts">4 &rarr; 22</td></tr><tr><td>Unit&eacute; tu&eacute;e niv.1 &rarr; niv.10</td><td class="pts">4,6 &rarr; 25,3</td></tr><tr><td>Unit&eacute; tu&eacute;e dans l&rsquo;alliance rivale niv.1 &rarr; niv.10</td><td class="pts">23 &rarr; 126,5</td></tr></tbody></table>
+</div>
+</section></section>
+<section class="card" id="bareme"><h2>📊 Bar&egrave;me des points VS</h2><p class="lead">Compilation issue des captures d&rsquo;&eacute;cran et de la fiche t&acirc;ches quotidienne.</p><section class="score"><h3>Jour 1 &mdash; Entra&icirc;nement Radar</h3><table><thead><tr><th>T&acirc;che</th><th>Points</th></tr></thead><tbody><tr><td>Utiliser 1 endurance</td><td class="pts">300</td></tr><tr><td>Compl&eacute;ter 1 t&acirc;che Radar</td><td class="pts">23 000</td></tr><tr><td>Utiliser 660 EXP de h&eacute;ros</td><td class="pts">2</td></tr><tr><td>Utiliser 1 point de donn&eacute;es de combat du drone</td><td class="pts">6</td></tr><tr><td>Utiliser 1 pi&egrave;ce de drone</td><td class="pts">5 000</td></tr><tr><td>Collecter 100 nourriture hors t&acirc;ches Radar</td><td class="pts">40</td></tr><tr><td>Collecter 100 fer hors t&acirc;ches Radar</td><td class="pts">40</td></tr><tr><td>Collecter 60 pi&egrave;ces hors t&acirc;ches Radar</td><td class="pts">40</td></tr><tr><td>Ouvrir 1 coffre de puce et gagner 1 mat&eacute;riel de puce premium</td><td class="pts">2 250</td></tr><tr><td>Diamant obtenu lors de l&rsquo;achat d&rsquo;un pack</td><td class="pts">30</td></tr></tbody></table></section>
+<section class="score"><h3>Jour 2 &mdash; Expansion de Base</h3><table><thead><tr><th>T&acirc;che</th><th>Points</th></tr></thead><tbody><tr><td>1 min acc&eacute;l&eacute;ration construction</td><td class="pts">115</td></tr><tr><td>Puissance b&acirc;timents +1 pt</td><td class="pts">21,5</td></tr><tr><td>Envoyer 1 camion commercial UR</td><td class="pts">200 000</td></tr><tr><td>Effectuer 1 t&acirc;che secr&egrave;te UR</td><td class="pts">150 000</td></tr><tr><td>Recruter 1 survivant</td><td class="pts">3 000</td></tr><tr><td>Diamant obtenu lors de l&rsquo;achat d&rsquo;un pack</td><td class="pts">30</td></tr></tbody></table></section>
+<section class="score"><h3>Jour 3 &mdash; &Egrave;re de la Science</h3><table><thead><tr><th>T&acirc;che</th><th>Points</th></tr></thead><tbody><tr><td>1 min acc&eacute;l&eacute;ration recherche</td><td class="pts">115</td></tr><tr><td>Puissance technologique +1 pt</td><td class="pts">21</td></tr><tr><td>Utiliser 1 badge de valeur</td><td class="pts">600</td></tr><tr><td>Compl&eacute;ter 1 t&acirc;che Radar</td><td class="pts">23 000</td></tr><tr><td>Coffre composant drone niv.1</td><td class="pts">2 200</td></tr><tr><td>Coffre composant drone niv.2</td><td class="pts">6 600</td></tr><tr><td>Coffre composant drone niv.3</td><td class="pts">20 000</td></tr><tr><td>Coffre composant drone niv.4</td><td class="pts">60 000</td></tr><tr><td>Coffre composant drone niv.5</td><td class="pts">180 000</td></tr><tr><td>Coffre composant drone niv.6</td><td class="pts">540 000</td></tr><tr><td>Coffre composant drone niv.7</td><td class="pts">1 620 000</td></tr><tr><td>Diamant obtenu lors de l&rsquo;achat d&rsquo;un pack</td><td class="pts">30</td></tr></tbody></table></section>
+<section class="score"><h3>Jour 4 &mdash; Former des H&eacute;ros</h3><table><thead><tr><th>T&acirc;che</th><th>Points</th></tr></thead><tbody><tr><td>Effectuer 1 recrutement de h&eacute;ros</td><td class="pts">3 450</td></tr><tr><td>Utiliser 660 EXP de h&eacute;ros</td><td class="pts">2</td></tr><tr><td>Utiliser 1 fragment h&eacute;ros SR</td><td class="pts">2 000</td></tr><tr><td>Utiliser 1 fragment h&eacute;ros SSR</td><td class="pts">7 000</td></tr><tr><td>Utiliser 1 fragment h&eacute;ros UR</td><td class="pts">20 000</td></tr><tr><td>Consommer 1 m&eacute;daille de comp&eacute;tence</td><td class="pts">20</td></tr><tr><td>Diamant obtenu lors de l&rsquo;achat d&rsquo;un pack</td><td class="pts">30</td></tr></tbody></table></section>
+<section class="score"><h3>Jour 5 &mdash; Mobilisation Totale</h3><table><thead><tr><th>T&acirc;che</th><th>Points</th></tr></thead><tbody><tr><td>Compl&eacute;ter 1 t&acirc;che Radar</td><td class="pts">23 000</td></tr><tr><td>1 min acc&eacute;l&eacute;ration construction</td><td class="pts">115</td></tr><tr><td>Puissance b&acirc;timents +1 pt</td><td class="pts">21,5</td></tr><tr><td>1 min acc&eacute;l&eacute;ration recherche</td><td class="pts">115</td></tr><tr><td>Puissance technologique +1 pt</td><td class="pts">21</td></tr><tr><td>1 min acc&eacute;l&eacute;ration formation</td><td class="pts">115</td></tr><tr><td>Former 1 unit&eacute; Niv.1</td><td class="pts">46</td></tr><tr><td>Former 1 unit&eacute; Niv.2</td><td class="pts">69</td></tr><tr><td>Former 1 unit&eacute; Niv.3</td><td class="pts">92</td></tr><tr><td>Former 1 unit&eacute; Niv.4</td><td class="pts">115</td></tr><tr><td>Former 1 unit&eacute; Niv.5</td><td class="pts">138</td></tr><tr><td>Former 1 unit&eacute; Niv.6</td><td class="pts">161</td></tr><tr><td>Former 1 unit&eacute; Niv.7</td><td class="pts">184</td></tr><tr><td>Former 1 unit&eacute; Niv.8</td><td class="pts">207</td></tr><tr><td>Former 1 unit&eacute; Niv.9</td><td class="pts">230</td></tr><tr><td>Former 1 unit&eacute; Niv.10</td><td class="pts">253</td></tr><tr><td>Diamant obtenu lors de l&rsquo;achat d&rsquo;un pack</td><td class="pts">30</td></tr></tbody></table></section>
+<section class="score"><h3>Jour 6 &mdash; Chasse &agrave; l&rsquo;Ennemi &mdash; actions g&eacute;n&eacute;rales</h3><table><thead><tr><th>T&acirc;che</th><th>Points</th></tr></thead><tbody><tr><td>Envoyer 1 camion commercial UR</td><td class="pts">200 000</td></tr><tr><td>Effectuer 1 t&acirc;che secr&egrave;te UR</td><td class="pts">150 000</td></tr><tr><td>1 min acc&eacute;l&eacute;ration construction</td><td class="pts">115</td></tr><tr><td>1 min acc&eacute;l&eacute;ration recherche</td><td class="pts">115</td></tr><tr><td>1 min acc&eacute;l&eacute;ration formation</td><td class="pts">115</td></tr><tr><td>1 min acc&eacute;l&eacute;ration soin</td><td class="pts">115</td></tr><tr><td>Diamant obtenu lors de l&rsquo;achat d&rsquo;un pack</td><td class="pts">30</td></tr></tbody></table></section>
+<section class="score"><h3>Jour 6 &mdash; Unit&eacute;s perdues</h3><table><thead><tr><th>T&acirc;che</th><th>Points</th></tr></thead><tbody><tr><td>Unit&eacute; Niv.1 perdue</td><td class="pts">4</td></tr><tr><td>Unit&eacute; Niv.2 perdue</td><td class="pts">6</td></tr><tr><td>Unit&eacute; Niv.3 perdue</td><td class="pts">8</td></tr><tr><td>Unit&eacute; Niv.4 perdue</td><td class="pts">10</td></tr><tr><td>Unit&eacute; Niv.5 perdue</td><td class="pts">12</td></tr><tr><td>Unit&eacute; Niv.6 perdue</td><td class="pts">14</td></tr><tr><td>Unit&eacute; Niv.7 perdue</td><td class="pts">16</td></tr><tr><td>Unit&eacute; Niv.8 perdue</td><td class="pts">18</td></tr><tr><td>Unit&eacute; Niv.9 perdue</td><td class="pts">20</td></tr><tr><td>Unit&eacute; Niv.10 perdue</td><td class="pts">22</td></tr></tbody></table></section>
+<section class="score"><h3>Jour 6 &mdash; Unit&eacute;s tu&eacute;es</h3><table><thead><tr><th>T&acirc;che</th><th>Points</th></tr></thead><tbody><tr><td>Unit&eacute; Niv.1 tu&eacute;e</td><td class="pts">4,6</td></tr><tr><td>Unit&eacute; Niv.2 tu&eacute;e</td><td class="pts">6,9</td></tr><tr><td>Unit&eacute; Niv.3 tu&eacute;e</td><td class="pts">9,2</td></tr><tr><td>Unit&eacute; Niv.4 tu&eacute;e</td><td class="pts">11,5</td></tr><tr><td>Unit&eacute; Niv.5 tu&eacute;e</td><td class="pts">13,8</td></tr><tr><td>Unit&eacute; Niv.6 tu&eacute;e</td><td class="pts">16,1</td></tr><tr><td>Unit&eacute; Niv.7 tu&eacute;e</td><td class="pts">18,4</td></tr><tr><td>Unit&eacute; Niv.8 tu&eacute;e</td><td class="pts">20,7</td></tr><tr><td>Unit&eacute; Niv.9 tu&eacute;e</td><td class="pts">23</td></tr><tr><td>Unit&eacute; Niv.10 tu&eacute;e</td><td class="pts">25,3</td></tr></tbody></table></section>
+<section class="score"><h3>Jour 6 &mdash; Unit&eacute;s tu&eacute;es dans l&rsquo;alliance rivale</h3><table><thead><tr><th>T&acirc;che</th><th>Points</th></tr></thead><tbody><tr><td>Niv.1 dans alliance rivale</td><td class="pts">23</td></tr><tr><td>Niv.2 dans alliance rivale</td><td class="pts">34,5</td></tr><tr><td>Niv.3 dans alliance rivale</td><td class="pts">46</td></tr><tr><td>Niv.4 dans alliance rivale</td><td class="pts">57,5</td></tr><tr><td>Niv.5 dans alliance rivale</td><td class="pts">69</td></tr><tr><td>Niv.6 dans alliance rivale</td><td class="pts">80,5</td></tr><tr><td>Niv.7 dans alliance rivale</td><td class="pts">92</td></tr><tr><td>Niv.8 dans alliance rivale</td><td class="pts">103,5</td></tr><tr><td>Niv.9 dans alliance rivale</td><td class="pts">115</td></tr><tr><td>Niv.10 dans alliance rivale</td><td class="pts">126,5</td></tr></tbody></table></section></section>
+<section class="card visual-section" id="captures-jeu">
+<h2>📸 Captures d&rsquo;&eacute;cran du jeu</h2>
+<p class="visual-section-note">Les captures sont repli&eacute;es par titre pour faciliter la lecture. Ouvre uniquement celles que tu veux v&eacute;rifier.</p>
+<div class="visual-tools">
+<button data-visual-open="#captures-jeu" type="button">Tout afficher</button>
+<button data-visual-close="#captures-jeu" type="button">Tout replier</button>
+</div>
+<div class="screens">
+<details class="visual-fold screen-fold">
+<summary>📸 Planning hebdomadaire VS</summary>
+<figure>
+<img alt="Capture jeu 1000100652.jpg" src="../assets/1000100652.jpg"/>
+<figcaption>1000100652.jpg</figcaption>
+</figure>
+</details>
+<details class="visual-fold screen-fold">
+<summary>📸 Jour 2 &mdash; Expansion de Base</summary>
+<figure>
+<img alt="Capture jeu 1000100651.jpg" src="../assets/1000100651.jpg"/>
+<figcaption>1000100651.jpg</figcaption>
+</figure>
+</details>
+<details class="visual-fold screen-fold">
+<summary>📸 Jour 3 &mdash; &Egrave;re de la Science</summary>
+<figure>
+<img alt="Capture jeu 1000100653.jpg" src="../assets/1000100653.jpg"/>
+<figcaption>1000100653.jpg</figcaption>
+</figure>
+</details>
+<details class="visual-fold screen-fold">
+<summary>📸 Jour 4 &mdash; Former des H&eacute;ros</summary>
+<figure>
+<img alt="Capture jeu 1000100654.jpg" src="../assets/1000100654.jpg"/>
+<figcaption>1000100654.jpg</figcaption>
+</figure>
+</details>
+<details class="visual-fold screen-fold">
+<summary>📸 Jour 5 &mdash; Formation / Mobilisation</summary>
+<figure>
+<img alt="Capture jeu 1000100656.jpg" src="../assets/1000100656.jpg"/>
+<figcaption>1000100656.jpg</figcaption>
+</figure>
+</details>
+<details class="visual-fold screen-fold">
+<summary>📸 Jour 5 &mdash; Mobilisation Totale</summary>
+<figure>
+<img alt="Capture jeu 1000100655.jpg" src="../assets/1000100655.jpg"/>
+<figcaption>1000100655.jpg</figcaption>
+</figure>
+</details>
+<details class="visual-fold screen-fold">
+<summary>📸 Jour 6 &mdash; Acc&eacute;l&eacute;rateurs / Combat</summary>
+<figure>
+<img alt="Capture jeu 1000100657.jpg" src="../assets/1000100657.jpg"/>
+<figcaption>1000100657.jpg</figcaption>
+</figure>
+</details>
+<details class="visual-fold screen-fold">
+<summary>📸 Jour 6 &mdash; Unit&eacute;s tu&eacute;es</summary>
+<figure>
+<img alt="Capture jeu 1000100658.jpg" src="../assets/1000100658.jpg"/>
+<figcaption>1000100658.jpg</figcaption>
+</figure>
+</details>
+<details class="visual-fold screen-fold">
+<summary>📸 Jour 6 &mdash; Unit&eacute;s perdues</summary>
+<figure>
+<img alt="Capture jeu 1000100659.jpg" src="../assets/1000100659.jpg"/>
+<figcaption>1000100659.jpg</figcaption>
+</figure>
+</details>
+</div>
+</section>
+<section class="card" id="teams"><h2>🧬 Guide strat&eacute;gique &mdash; Optimisation des teams</h2><blockquote><b>T1 forte d&rsquo;abord &rarr; T2 correcte ensuite &rarr; T3 plus tard.</b></blockquote><div class="cols"><div class="box ok"><h3>🛡️ Frontline</h3><ul><li>2 h&eacute;ros devant.</li><li>D&eacute;fenseurs / tanks.</li><li>R&ocirc;le : encaisser.</li><li>&Eacute;quipement : armure + radar.</li></ul></div><div class="box prep"><h3>🔥 Backline</h3><ul><li>3 h&eacute;ros derri&egrave;re.</li><li>Attaquants / supports.</li><li>R&ocirc;le : d&eacute;g&acirc;ts et bonus.</li><li>&Eacute;quipement : canon + puce.</li></ul></div><div class="box"><h3>🧩 Bonus de type</h3><table><thead><tr><th>Composition</th><th>Bonus</th><th>Recommandation</th></tr></thead><tbody><tr><td>5 h&eacute;ros m&ecirc;me type</td><td>+20 %</td><td>Objectif long terme</td></tr><tr><td>4 + 1</td><td>+15 %</td><td>Tr&egrave;s bon compromis</td></tr><tr><td>3 + 2</td><td>+10 %</td><td>Bonne team mixte</td></tr><tr><td>3 + 1 + 1</td><td>+5 %</td><td>Temporaire</td></tr><tr><td>2 + 2 + 1</td><td>Faible</td><td>&Agrave; &eacute;viter si possible</td></tr></tbody></table></div></div><h3>⚙️ Priorit&eacute;s &eacute;quipement</h3><table><thead><tr><th>Type</th><th>Priorit&eacute;</th></tr></thead><tbody><tr><td>Frontline</td><td>Armure 20 &rarr; Radar 20 &rarr; Radar 40 &rarr; &eacute;toiles radar &rarr; Armure 40 &rarr; &eacute;toiles armure</td></tr><tr><td>Backline</td><td>Canon 40 &rarr; &eacute;toiles canon &rarr; Puce 40 &rarr; &eacute;toiles puce &rarr; Radar/Armure ensuite</td></tr><tr><td>Ressources rares</td><td>Sur les h&eacute;ros principaux de T1 uniquement d&rsquo;abord</td></tr></tbody></table></section>
+<section class="card alert" id="serveur2245"><h2>🚫 Serveur 2245 &mdash; Aucun pillage interne</h2><p><b>Ne rien piller sur notre serveur :</b> pas de camions, pas de t&acirc;ches, pas de r&eacute;coltes, pas de bases, pas de ressources. Les actions offensives visent les adversaires VS ou les serveurs ennemis.</p></section>
+<div class="footer">🔥 Que la B&ucirc;che soit avec vous ! 🪵 &mdash; Serveur 2245 : aucun pillage interne</div>
+</article>
+</main>
+<button id="mobileMenuButton" title="Menu" type="button">☰</button>
+</div>
+
+</body>
+</html>
