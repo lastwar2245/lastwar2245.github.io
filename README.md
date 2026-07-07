@@ -13,6 +13,7 @@ Site communautaire LastWar2245 compatible avec GitHub Pages.
 │   ├── css/style.css       # CSS partagé, titres pliables et ancres de section
 │   ├── js/app.js           # JS partagé : menu, navigation, titres/visualisations pliables
 │   ├── images/recap_vs/    # Images récap VS, suffixées par langue
+│   ├── images/site/        # Images d'interface du site, dont EN en construction
 │   └── fichiers images existants
 └── .nojekyll               # Désactive le traitement Jekyll côté GitHub Pages
 ```
@@ -60,3 +61,32 @@ recap_lundi_v1_EN.png
 - `_EN` = future image anglaise, à ajouter quand la traduction visuelle sera prête.
 
 Tant que les images anglaises n'existent pas, la page EN peut continuer à pointer vers les images `_FR` pour éviter les liens cassés.
+
+
+## Mise à jour V4
+
+- Les titres H2 à H5 sont repliés par défaut.
+- Les titres restent dépliables/repliables via l’icône `▸ / ▾`.
+- Les ancres `#` restent disponibles pour les liens directs.
+- Le fichier `.nojekyll` est inclus à la racine pour GitHub Pages.
+
+## Mise à jour V5
+
+- Ajout d'une image `assets/images/site/under_construction_EN.svg`.
+- Sur l'accueil, la carte EN affiche l'image "EN version under construction" et renvoie vers `en/`.
+- La page `en/index.html` affiche aussi un statut clair : version EN en construction.
+- Workflow retenu : finaliser `fr/index.html`, copier la structure validée vers `en/index.html`, puis traduire avec ChatGPT section par section.
+- Les titres H2 à H5 restent repliés par défaut.
+
+
+## Erreur 404
+
+Le fichier `404.html` contient une page d’erreur personnalisée pour GitHub Pages.
+
+
+## Version v7 — titres hiérarchiques dans “Fiches par jour”
+
+- Les jours de la section `Fiches par jour` sont maintenant de vrais titres `H3`.
+- Les liens du menu latéral pointent directement vers ces titres `H3`.
+- Les titres H2 à H5 restent repliés par défaut au chargement.
+- Le menu latéral affiche les jours comme des sous-titres hiérarchiques.

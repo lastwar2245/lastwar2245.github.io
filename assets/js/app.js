@@ -240,6 +240,16 @@
     });
   }
 
+  function setDefaultHeadingState(){
+    article.querySelectorAll('.fold-heading').forEach(heading => {
+      const body = heading.nextElementSibling;
+      if(!body || !body.classList.contains('heading-fold-body')) return;
+      // Par défaut : H1 ouvert, tous les titres H2 à H5 repliés.
+      // Si une ancre est ouverte ensuite, openHashTarget() déplie automatiquement le chemin utile.
+      updateHeadingState(heading, body, getLevel(heading) < 2);
+    });
+  }
+
   function insertTools(){
     if(article.querySelector('.heading-tools')) return;
     const tools = document.createElement('div');
@@ -270,6 +280,7 @@
 
   buildAllFolds();
   insertTools();
+  setDefaultHeadingState();
   openHashTarget();
   window.addEventListener('hashchange', openHashTarget);
 

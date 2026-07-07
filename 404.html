@@ -3,38 +3,165 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="LastWar2245 — portail FR/EN du guide VS et Duel d’Alliance.">
-  <title>LastWar2245 — Page introuvable</title>
+  <meta name="robots" content="noindex">
+  <meta name="description" content="Erreur 404 — page introuvable sur le site LastWar2245.">
+  <title>Erreur 404 — LastWar2245</title>
   <style>
-    :root{--bg:#08111f;--panel:#111827;--panel2:#162033;--text:#f8fafc;--muted:#cbd5e1;--cyan:#22d3ee;--orange:#fb923c;--border:#334155}
-    *{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:radial-gradient(circle at 90% 0%,rgba(34,211,238,.22),transparent 32%),radial-gradient(circle at 10% 100%,rgba(251,146,60,.16),transparent 34%),var(--bg);color:var(--text);line-height:1.55}
-    main{max-width:980px;margin:auto;padding:30px 16px 70px}.hero{border:1px solid var(--border);border-radius:24px;padding:30px;background:linear-gradient(135deg,rgba(17,24,39,.98),rgba(15,23,42,.88));box-shadow:0 20px 60px rgba(0,0,0,.35);margin-bottom:18px}h1{font-size:clamp(2rem,6vw,4rem);margin:.1em 0}h2{color:var(--cyan);margin-top:0}.lead{color:var(--muted);font-size:1.08rem}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:18px 0}.card{border:1px solid var(--border);border-radius:18px;background:rgba(17,24,39,.88);padding:20px}.button{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(34,211,238,.38);border-radius:999px;background:#162033;color:#e5e7eb;text-decoration:none;padding:10px 14px;font-weight:900}.button:hover{border-color:var(--orange);color:#fff7ed;background:linear-gradient(90deg,rgba(34,211,238,.18),rgba(251,146,60,.14))}.note{border-left:5px solid var(--orange);background:rgba(251,146,60,.12)}code{background:#020617;border:1px solid var(--border);border-radius:8px;padding:2px 6px;color:#e5e7eb}.footer{text-align:center;color:var(--muted);margin-top:20px}
+    :root{
+      --bg:#08111f;
+      --panel:#111827;
+      --panel2:#162033;
+      --text:#f8fafc;
+      --muted:#cbd5e1;
+      --cyan:#22d3ee;
+      --orange:#fb923c;
+      --red:#ef4444;
+      --border:#334155;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      min-height:100vh;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      background:
+        radial-gradient(circle at 90% 0%,rgba(34,211,238,.22),transparent 32%),
+        radial-gradient(circle at 10% 100%,rgba(251,146,60,.17),transparent 34%),
+        var(--bg);
+      color:var(--text);
+      line-height:1.55;
+    }
+    main{max-width:1040px;margin:auto;padding:32px 16px 70px}
+    .hero{
+      position:relative;
+      overflow:hidden;
+      border:1px solid var(--border);
+      border-radius:26px;
+      padding:34px;
+      background:linear-gradient(135deg,rgba(17,24,39,.98),rgba(15,23,42,.9));
+      box-shadow:0 20px 60px rgba(0,0,0,.36);
+      margin-bottom:18px;
+    }
+    .hero::after{
+      content:"";
+      position:absolute;
+      inset:auto -70px -100px auto;
+      width:260px;
+      height:260px;
+      border-radius:999px;
+      background:radial-gradient(circle,rgba(251,146,60,.2),transparent 68%);
+      pointer-events:none;
+    }
+    .eyebrow{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      border:1px solid rgba(239,68,68,.42);
+      border-radius:999px;
+      background:rgba(239,68,68,.14);
+      color:#fee2e2;
+      font-weight:900;
+      padding:6px 12px;
+      margin-bottom:12px;
+    }
+    h1{
+      font-size:clamp(2.2rem,8vw,5.6rem);
+      line-height:1;
+      margin:.08em 0 .18em;
+      letter-spacing:-.05em;
+    }
+    h2{
+      color:var(--cyan);
+      margin-top:0;
+      border-bottom:1px solid var(--border);
+      padding-bottom:8px;
+    }
+    .lead{color:var(--muted);font-size:1.1rem;max-width:760px}
+    .bad-path{
+      display:inline-block;
+      max-width:100%;
+      overflow-wrap:anywhere;
+      border:1px solid var(--border);
+      border-radius:10px;
+      background:#020617;
+      color:#e5e7eb;
+      padding:4px 8px;
+      font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;
+      font-size:.95rem;
+    }
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin:18px 0}
+    .card{
+      border:1px solid var(--border);
+      border-radius:18px;
+      background:rgba(17,24,39,.88);
+      padding:20px;
+    }
+    .card.warning{border-left:5px solid var(--orange);background:rgba(251,146,60,.1)}
+    .button-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+    .button{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      border:1px solid rgba(34,211,238,.38);
+      border-radius:999px;
+      background:#162033;
+      color:#e5e7eb;
+      text-decoration:none;
+      padding:10px 14px;
+      font-weight:900;
+    }
+    .button:hover,.button:focus-visible{
+      border-color:var(--orange);
+      color:#fff7ed;
+      background:linear-gradient(90deg,rgba(34,211,238,.18),rgba(251,146,60,.14));
+      outline:none;
+    }
+    .button.primary{border-color:rgba(251,146,60,.62);background:rgba(251,146,60,.16)}
+    ul{margin:.3rem 0 0;padding-left:1.25rem;color:var(--muted)}
+    li{margin:.25rem 0}
+    .footer{text-align:center;color:var(--muted);margin-top:22px}
   </style>
 </head>
 <body>
 <main>
   <header class="hero">
-    <h1>⚔️ LastWar2245</h1>
-    <p class="lead">Portail du guide VS / Duel d’Alliance — architecture prête pour GitHub Pages avec version française et version anglaise.</p>
+    <span class="eyebrow">🚧 Erreur 404</span>
+    <h1>Page introuvable</h1>
+    <p class="lead">
+      Le chemin demandé n’existe pas, a été déplacé, ou n’a pas encore été publié sur le site LastWar2245.
+    </p>
+    <p>Chemin demandé : <span id="bad-path" class="bad-path">/</span></p>
+    <nav class="button-row" aria-label="Navigation de secours">
+      <a class="button primary" href="/">🏠 Retour accueil</a>
+      <a class="button" href="/fr/">🇫🇷 Guide FR</a>
+      <a class="button" href="/en/">🇬🇧 Version EN</a>
+    </nav>
   </header>
-  <section class="grid" aria-label="Choix de langue">
-    <article class="card">
-      <h2>🇫🇷 Version française</h2>
-      <p>Guide principal, sommaire FR, planning hebdomadaire, fiches quotidiennes, barèmes et règles serveur.</p>
-      <a class="button" href="fr/">Ouvrir le guide FR</a>
+
+  <section class="grid" aria-label="Aide erreur 404">
+    <article class="card warning">
+      <h2>🧭 Que faire ?</h2>
+      <ul>
+        <li>Vérifier l’orthographe de l’adresse.</li>
+        <li>Revenir à l’accueil du site.</li>
+        <li>Utiliser le sommaire FR pour retrouver la section.</li>
+      </ul>
     </article>
     <article class="card">
       <h2>🇬🇧 English version</h2>
-      <p>English navigation and table of contents are ready. The detailed translation can be completed section by section.</p>
-      <a class="button" href="en/">Open the EN guide</a>
+      <p class="lead">La version anglaise est encore en construction. Elle sera copiée depuis la version FR finale, puis traduite progressivement.</p>
     </article>
   </section>
-  <section class="card note">
-    <h2>🧭 Structure du site</h2>
-    <p>Dépose tout le contenu de ce dossier à la racine du dépôt <code>lastwar2245.github.io</code>.</p>
-    <p>URL attendue : <code>https://lastwar2245.github.io/</code></p>
-  </section>
-  <p class="footer">🔥 Que la Bûche soit avec vous ! 🪵</p>
+
+  <p class="footer">🔥 Que la Bûche retrouve son chemin. 🪵</p>
 </main>
+<script>
+  (function(){
+    var target = document.getElementById('bad-path');
+    if(target){
+      target.textContent = window.location.pathname + window.location.search + window.location.hash;
+    }
+  })();
+</script>
 </body>
 </html>
