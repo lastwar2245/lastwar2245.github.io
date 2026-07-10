@@ -90,3 +90,15 @@ Le fichier `404.html` contient une page d’erreur personnalisée pour GitHub Pa
 - Les liens du menu latéral pointent directement vers ces titres `H3`.
 - Les titres H2 à H5 restent repliés par défaut au chargement.
 - Le menu latéral affiche les jours comme des sous-titres hiérarchiques.
+
+
+## Architecture multilingue
+
+- `fr/` : version source et référence.
+- `en/`, `pt/`, `de/` : traductions temporaires assistées par IA.
+- `chroniquestaverne/` : page intégrée des Chroniques du Tavernier DB71.
+- `assets/css/style.css` : style partagé des guides.
+- `assets/css/portal.css` : style partagé de l’accueil, de la page 404 et des pages simples.
+- `assets/js/app.js` : interactions partagées (menus, titres pliables, ancres).
+
+Pour la maintenance, modifier d’abord `fr/index.html`, puis régénérer les traductions. Éviter de recopier du CSS dans chaque page : placer les règles communes dans `assets/css/`.
