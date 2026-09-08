@@ -1,0 +1,515 @@
+[
+  {
+    "file": "actions/task-do.svg",
+    "id": "task-do",
+    "label_fr": "À faire",
+    "category": "actions",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "actions/task-prepare.svg",
+    "id": "task-prepare",
+    "label_fr": "À préparer",
+    "category": "actions",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "actions/task-warning.svg",
+    "id": "task-warning",
+    "label_fr": "Attention",
+    "category": "actions",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "actions/task-tip.svg",
+    "id": "task-tip",
+    "label_fr": "Astuce",
+    "category": "actions",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "actions/task-goal.svg",
+    "id": "task-goal",
+    "label_fr": "Objectif",
+    "category": "actions",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "actions/task-check.svg",
+    "id": "task-check",
+    "label_fr": "Validé / OK",
+    "category": "actions",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "actions/task-repeat.svg",
+    "id": "task-repeat",
+    "label_fr": "Routine / récurrent",
+    "category": "actions",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "actions/task-priority.svg",
+    "id": "task-priority",
+    "label_fr": "Priorité",
+    "category": "actions",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "actions/task-timing.svg",
+    "id": "task-timing",
+    "label_fr": "Timing / bon moment",
+    "category": "actions",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "actions/task-forbidden.svg",
+    "id": "task-forbidden",
+    "label_fr": "Interdit / à éviter",
+    "category": "actions",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "utility/action-share.svg",
+    "id": "action-share",
+    "label_fr": "Partager",
+    "category": "utility",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "utility/action-link.svg",
+    "id": "action-link",
+    "label_fr": "Lien",
+    "category": "utility",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "utility/action-qr.svg",
+    "id": "action-qr",
+    "label_fr": "QR code",
+    "category": "utility",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "utility/action-print.svg",
+    "id": "action-print",
+    "label_fr": "Imprimer",
+    "category": "utility",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "utility/action-pdf.svg",
+    "id": "action-pdf",
+    "label_fr": "Exporter PDF",
+    "category": "utility",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "utility/action-copy.svg",
+    "id": "action-copy",
+    "label_fr": "Copier",
+    "category": "utility",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "utility/action-open.svg",
+    "id": "action-open",
+    "label_fr": "Ouvrir",
+    "category": "utility",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "utility/action-download.svg",
+    "id": "action-download",
+    "label_fr": "Télécharger",
+    "category": "utility",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "utility/action-language.svg",
+    "id": "action-language",
+    "label_fr": "Langue",
+    "category": "utility",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "utility/action-home.svg",
+    "id": "action-home",
+    "label_fr": "Accueil",
+    "category": "utility",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-radar.svg",
+    "id": "vs-radar",
+    "label_fr": "Radar",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-drone.svg",
+    "id": "vs-drone",
+    "label_fr": "Drone",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-endurance.svg",
+    "id": "vs-endurance",
+    "label_fr": "Endurance",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-harvest.svg",
+    "id": "vs-harvest",
+    "label_fr": "Récoltes",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-construction.svg",
+    "id": "vs-construction",
+    "label_fr": "Construction",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-building.svg",
+    "id": "vs-building",
+    "label_fr": "Bâtiment",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-research.svg",
+    "id": "vs-research",
+    "label_fr": "Recherche / science",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-components.svg",
+    "id": "vs-components",
+    "label_fr": "Composants",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-hero.svg",
+    "id": "vs-hero",
+    "label_fr": "Héros",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-training.svg",
+    "id": "vs-training",
+    "label_fr": "Entraînement / troupes",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-promotion.svg",
+    "id": "vs-promotion",
+    "label_fr": "Promotion",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-heal.svg",
+    "id": "vs-heal",
+    "label_fr": "Soins",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-battle.svg",
+    "id": "vs-battle",
+    "label_fr": "Combat",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-enemy.svg",
+    "id": "vs-enemy",
+    "label_fr": "Ennemi / Enemy Buster",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-alliance.svg",
+    "id": "vs-alliance",
+    "label_fr": "Alliance",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-donation.svg",
+    "id": "vs-donation",
+    "label_fr": "Dons d’alliance",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-storage.svg",
+    "id": "vs-storage",
+    "label_fr": "Stockage",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-reward.svg",
+    "id": "vs-reward",
+    "label_fr": "Récompense",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-truck.svg",
+    "id": "vs-truck",
+    "label_fr": "Camion",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-secret-mission.svg",
+    "id": "vs-secret-mission",
+    "label_fr": "Mission secrète",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-survivor.svg",
+    "id": "vs-survivor",
+    "label_fr": "Survivant",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-badge.svg",
+    "id": "vs-badge",
+    "label_fr": "Badge",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-fragment.svg",
+    "id": "vs-fragment",
+    "label_fr": "Fragments",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-medal.svg",
+    "id": "vs-medal",
+    "label_fr": "Médaille",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "vs/vs-shield.svg",
+    "id": "vs-shield",
+    "label_fr": "Bouclier / protection",
+    "category": "vs",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "ui/ui-summary.svg",
+    "id": "ui-summary",
+    "label_fr": "Sommaire",
+    "category": "ui",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "ui/ui-planning.svg",
+    "id": "ui-planning",
+    "label_fr": "Planning hebdo",
+    "category": "ui",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "ui/ui-day-sheet.svg",
+    "id": "ui-day-sheet",
+    "label_fr": "Fiche du jour",
+    "category": "ui",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "ui/ui-gallery.svg",
+    "id": "ui-gallery",
+    "label_fr": "Galerie",
+    "category": "ui",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "ui/ui-strategy.svg",
+    "id": "ui-strategy",
+    "label_fr": "Guide stratégique",
+    "category": "ui",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "ui/ui-score.svg",
+    "id": "ui-score",
+    "label_fr": "Barème / score",
+    "category": "ui",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "ui/ui-screenshot.svg",
+    "id": "ui-screenshot",
+    "label_fr": "Captures",
+    "category": "ui",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "ui/ui-teams.svg",
+    "id": "ui-teams",
+    "label_fr": "Teams",
+    "category": "ui",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "ui/ui-server-rule.svg",
+    "id": "ui-server-rule",
+    "label_fr": "Règle serveur",
+    "category": "ui",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "ui/ui-chronicle.svg",
+    "id": "ui-chronicle",
+    "label_fr": "Chroniques",
+    "category": "ui",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "ui/ui-section-divider.svg",
+    "id": "ui-section-divider",
+    "label_fr": "Séparateur",
+    "category": "ui",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  },
+  {
+    "file": "ui/ui-footer-share.svg",
+    "id": "ui-footer-share",
+    "label_fr": "Footer partage",
+    "category": "ui",
+    "viewBox": "0 0 64 64",
+    "style": "monochrome-line",
+    "color_mode": "currentColor"
+  }
+]
