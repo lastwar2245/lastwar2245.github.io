@@ -634,3 +634,13 @@ body.day-viewer-open{overflow:hidden}
   .day-share-compact .day-share-open{max-width:none}
 }
 @media print{.day-share-compact,.day-viewer{display:none!important}}
+
+/* === V3.3 — daily routine & event deadlines === */
+.routine-subsection{border:1px solid rgba(45,212,191,.20);border-left:5px solid #2dd4bf;border-radius:18px;padding:16px;margin-top:20px;background:linear-gradient(145deg,rgba(13,148,136,.10),rgba(2,6,23,.34));}
+.routine-subsection>h3{border-color:rgba(45,212,191,.28);color:#ccfbf1;background:rgba(15,118,110,.10)}
+.routine-subsection>h4{color:#d1fae5;margin-top:18px}
+.routine-subsection .icon-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px 12px;padding-left:0}
+.routine-subsection .icon-list li{list-style:none;margin:0;padding:9px 10px;border:1px solid rgba(255,255,255,.07);border-radius:12px;background:rgba(2,6,23,.28)}
+.routine-subsection .task-icon{color:#2dd4bf}
+@media(max-width:820px){.routine-subsection .icon-list{grid-template-columns:1fr}.routine-subsection{padding:12px}}
+@media print{.routine-subsection{background:#fff!important;border-color:#aaa!important}.routine-subsection .icon-list li{background:#fff!important;border-color:#ccc!important;color:#111827!important}}

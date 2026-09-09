@@ -61,3 +61,9 @@ figure{margin:4mm 0;break-inside:avoid}figure img{max-width:100%;height:auto}
 /* === V2.6.1 — runtime shrink-to-fit support for one-page daily PDFs === */
 .print-day-body{position:relative;transform-origin:top left}
 .print-day-sheet[data-fit-scale]{overflow:hidden}
+
+/* V3.3 daily routine in complete VS guide */
+.print-vs-routine{font-size:9.2pt;line-height:1.28;columns:2;column-gap:8mm}
+.print-vs-routine h3,.print-vs-routine h4{column-span:all}
+.print-vs-routine .icon-list{margin:2mm 0 3mm;padding-left:4mm}
+.print-vs-routine li{break-inside:avoid;margin:1mm 0}
